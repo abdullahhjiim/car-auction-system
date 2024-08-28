@@ -1,0 +1,15 @@
+.gulf_accordion button:focus {
+  background-color: transparent !important;
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: 0 !important;
+}
+.gulf_accordion button {
+  background-color: transparent !important;
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: 0 !important;
+}
+.focus\:ring-4:focus {
+  box-shadow: none !important;
+}

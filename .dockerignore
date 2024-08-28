@@ -1,0 +1,12 @@
+**/node_modules/
+**/dist
+**/build
+.git
+npm-debug.log
+.coverage
+.coverage.*
+.aws
+.next
+.vercel
+.idea
+.vscode

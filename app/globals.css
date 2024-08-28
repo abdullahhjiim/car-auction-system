@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap&family=Alexandria:wght@100..900");
+/* @import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #b20a0b;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.aw_black-overlay {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+
+
+/* shadow */
+.black-shadow {
+  box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.11);
+}
+.shadow-light {
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.08);
+}
+
+/* form */
+.input-with-shadow {
+  box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.11);
+  border: 0;
+  outline: 0;
+  border-radius: 7px;
+  padding: 8px 16px;
+}
+.form-label {
+  font-size: 20px;
+  font-weight: 700;
+}
+.input-checkbox {
+  border: 1px solid black;
+  outline: 0;
+  border-radius: 0;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus,
+.order-select:focus {
+  outline: none;
+  border: 0 !important;
+  box-shadow: 0 0 11px rgba(178, 10, 11, 0.22) !important;
+}
+
+.divider {
+  background-color: #1e1e1e;
+  height: 1px;
+  width: 100%;
+}
+.service-card:hover svg path {
+  fill: white;
+}
+
+.blink {
+  animation: blink infinite 2s ease-in-out;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.swiper {
+  z-index: 0 !important;
+}
+.swiper-wrapper {
+  max-height: 540px !important;
+}
+
+.react-select__menu {
+  z-index: 11;
+}
+
+.swiper-button-prev {
+  color: var(--primary-color) !important;
+}
+
+.swiper-button-next {
+  color: var(--primary-color) !important;
+}
+
+.PhoneInput input {
+  box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.11);
+  margin-right: 5px;
+  border: 0;
+  outline: 0;
+  border-radius: 7px;
+  padding: 8px 16px;
+}
+
+.react-tel-input .selected-flag {
+  width: 50px !important;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.react-tel-input .country-list .search {
+  display: flex !important;
+  align-items: center;
+}
+
+.register_step_three label {
+  color: white !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+  margin-top: 20px;
+}
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-1h51icj-MuiAutocomplete-root
+  .MuiOutlinedInput-root
+  input,
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root input {
+  color: white;
+}
+.css-1h51icj-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-endAdornment svg {
+  color: white !important;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root,
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+  margin-top: 28px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.aw_black-overlay {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.black-shadow {
+  box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.11);
+}
+.shadow-light {
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.08);
+}
+
+.input-with-shadow {
+  box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.11);
+  border: 0;
+  outline: 0;
+  border-radius: 7px;
+  padding: 8px 16px;
+}
+.form-label {
+  font-size: 20px;
+  font-weight: 700;
+}
+.input-checkbox {
+  border: 1px solid black;
+  outline: 0;
+  border-radius: 0;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus,
+.order-select:focus {
+  outline: none;
+  border: 0 !important;
+  box-shadow: 0 0 11px rgba(178, 10, 11, 0.22) !important;
+}
+
+.divider {
+  background-color: #1e1e1e;
+  height: 1px;
+  width: 100%;
+}
+.service-card:hover svg path {
+  fill: white;
+}
+
+.blink {
+  animation: blink infinite 2s ease-in-out;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.PhoneInput input {
+  box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.11);
+  margin-right: 5px;
+  border: 0;
+  outline: 0;
+  border-radius: 7px;
+  padding: 8px 16px !important;
+}
+
+.react-tel-input input {
+  width: 100% !important;
+  height: 44px !important;
+  border: 0 !important;
+  padding-left: 55px !important;
+}
+.react-tel-input .selected-flag {
+  width: 50px !important;
+  display: flex;
+  align-items: center;
+}
+.react-tel-input .country-list .search {
+  display: flex !important;
+  align-items: center;
+}
+
+.register_step_three label {
+  color: white !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+  margin-top: 20px;
+}
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-1h51icj-MuiAutocomplete-root
+  .MuiOutlinedInput-root
+  input,
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root input {
+  color: white;
+}
+.css-1h51icj-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-endAdornment svg {
+  color: white !important;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root,
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+  margin-top: 28px;
+}
+
+.swiper-slide-thumb-active {
+  border: 2px solid transparent;
+  outline: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+
+.react-tel-input .country-list .search-box {
+  padding: 8px 16px !important;
+  margin-right: 11px;
+  height: 44px !important;
+}
+
+input[type="radio"] {
+  accent-color: #b20a0b;
+}
+
+/* swiper slide */
+.swiper-slide-thumb-active {
+  border: 2px solid transparent;
+  outline: 1px solid #b20a0b;
+  border-radius: 10px;
+}
+
+.react-slick * {
+  min-height: 0;
+  min-width: 0;
+}
+
+.react-slick .slick-prev,
+.react-slick .slick-next {
+  background-color: rgb(187, 184, 184);
+  border-radius: 10px;
+}
+
+.react-slick .fluid__instructions {
+  margin-top: 30px;
+}
+
+@media (min-width: 480px) {
+  .react-slick .fluid__image-container {
+    margin: 40px;
+  }
+
+  .react-slick .fluid__instructions {
+    margin: 0 20px;
+    padding-top: 20px;
+  }
+}
+
+/* .dotted {
+  background: gray !important;
+  color: white !important;
+  border-radius: 8px;
+} */
+
+.dotted {
+  position: relative !important;
+}
+
+.dotted::after {
+  background-color: black;
+  border-radius: 50%;
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  left: calc(50% - 2px);
+}
+
+.loading {
+  position: relative;
+}
+
+.loading::before {
+  content: "⌛️";
+}
+
+.loading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(87, 87, 87);
+  opacity: 0.5;
+  animation: skeletonAnim 1s infinite alternate;
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes skeletonAnim {
+  from {
+    background-color: rgba(68, 68, 68, 0);
+  }
+  to {
+    background-color: rgb(86, 86, 86);
+  }
+}
+
+.accordion__button {
+  background-color: transparent !important;
+}
